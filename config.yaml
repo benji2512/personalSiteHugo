@@ -162,6 +162,8 @@ params:
         - "Python"
         - "Nix"
         - "Hugo"
+        - "Rust"
+        - "Go"
 
   # Experience
   experience:
@@ -171,7 +173,7 @@ params:
       - job: "Software Developer"
         company: "BrowserStack"
         companyUrl: "https://browserstack.com"
-        date: "Aug 2021 - present"
+        date: "Aug 2021 - July 2023"
         # featuredLink:
         #   enable: true
         #   name: "View the project"
@@ -321,7 +323,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com
