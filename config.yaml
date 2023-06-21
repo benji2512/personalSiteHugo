@@ -120,7 +120,7 @@ params:
     intro: "Hi, my name is"
     title: "Benjiman."
     subtitle: "I'm an Irish based software engineer and football coach"
-    content: "I love creating efficient things that people enjoy using."
+    content: "I love creating efficient and useful things that people enjoy."
     image: /images/headshot.jpg
     bottomImage:
       enable: true
@@ -148,10 +148,8 @@ params:
     title: "About Me"
     image: "/images/bitmoji.jpg" # Get image for here of headshot
     content: |-
-      A passionate, charismatic and motivated person who always strives for better things. Helping people is a strength of mine and through this my communication skills and teamwork skills have benefitted immensely. 
-
-      Having confidence as a trait means that things like public speaking and meeting new people are not a problem for me.
-
+      A passionate, charismatic and hard working person who always strives for better things. Helping people to achieve what they desire is a strength of mine and through this my teamwork skills has been greatly enhanced. Having confidence as a trait means that wading into the unknown is exciting and anticipated.  
+      *
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -160,6 +158,7 @@ params:
         - "Hasicorp Suite(Nomad, Consul, Vault)"
         - "Jenkins"
         - "Python"
+        - "Ansible"
         - "Nix"
         - "Hugo"
 
@@ -171,7 +170,7 @@ params:
       - job: "Software Developer"
         company: "BrowserStack"
         companyUrl: "https://browserstack.com"
-        date: "Aug 2021 - present"
+        date: "Aug 2021 - July 2023"
         # featuredLink:
         #   enable: true
         #   name: "View the project"
@@ -321,7 +320,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com
