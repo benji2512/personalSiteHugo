@@ -1,4 +1,5 @@
-baseURL: "https://benjimanclarke.ie"
+# baseURL: "https://benjimanclarke.ie"
+baseURL: "localhost"
 languageCode: "en-us"
 title: "Benjiman Clarke"
 theme: hugo-profile
@@ -119,9 +120,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Benjiman."
-    subtitle: "I'm an Irish based software engineer and football coach"
+    subtitle: "I'm an Irish based software developer/engineer and football coach"
     content: "I love creating efficient and useful things that people enjoy."
-    image: /images/headshot.jpg
+    image: /images/headshot1.jpg
     bottomImage:
       enable: true
     roundImage: false # Make hero image circular | default false
@@ -137,7 +138,7 @@ params:
         - icon: fab fa-github
           url: https://https://github.com/benji2512
         - icon: fab fa-twitter
-          url: https://twitter.com/benjithedev
+          url: https://x.com/benjithedev
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
@@ -154,19 +155,34 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Ruby"
-        - "Hasicorp Suite(Nomad, Consul, Vault)"
+        - "Java"
+        - "Kubernetes"
+        - "Docker"
         - "Jenkins"
         - "Python"
-        - "Ansible"
+        - "Hyprland"
         - "Nix"
-        - "Hugo"
+        - "ElasticSearch"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Software Developer"
+        company: "IBM"
+        companyUrl: "https://ibm.com"
+        date: "Apr 2024 - Current"
+          # featuredLink:
+          #   enable: true
+          #   name: "View the project"
+          #   url: "https://example.com"
+        content: |
+          At IBM, I am part of a team with IBM Security that maintains their on-premise QRadar Soar. This involve:
+          - Maintainence and improvement of its Playbook feature.
+          - Triage and fix security issues associated with Python code and infrastructure.
+          - Evaluate and roll out new internal tools to in-house developers.
+
       - job: "Software Developer"
         company: "BrowserStack"
         companyUrl: "https://browserstack.com"
@@ -251,7 +267,7 @@ params:
     items:
       - title: Nurture Africa Ambassador
         content: During my first year in University, I took on the role as Nurture Africa's Ambassador and travelled to Uganda to see the fantastic work they do within the community. I am going back in July/August 2023 to see further improvements to the area. Click for more details.
-        url: https://bensnurtureafricatrip.com
+        url: https://bensnurtureafricatrip.netlify.app
       - title: Football Coaching
         content: I dedicate many hours a week planning and executing training sessions and passing along football knowledge to players in Wicklow and District Schoolboys/girls League
 
@@ -279,7 +295,7 @@ params:
         image: /images/projects/CapoCrimini.jpg
         featured:
           name: Website
-          link: https://capo-redesign.herokuapp.com
+          link: https://caporedesign.fly.dev
         badges:
           - "Ruby"
           - "Sinatra"
@@ -293,7 +309,7 @@ params:
         image: /images/projects/y&lLogo.png
         featured:
           name: Website
-          link: https://youngandlazyapparel.co.uk
+          link: https://youngandlazy.fly.dev
         badges:
           - "Ruby"
           - "Sinatra"

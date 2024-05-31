@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Benjiman Clarke</title>
-    <link>https://benjimanclarke.ie/categories/</link>
+    <link>localhost/categories/</link>
     <description>Recent content in Categories on Benjiman Clarke</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://benjimanclarke.ie/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="localhost/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://benjimanclarke.ie/</loc>
+    <loc>localhost/</loc>
   </url><url>
-    <loc>https://benjimanclarke.ie/categories/</loc>
+    <loc>localhost/categories/</loc>
   </url><url>
-    <loc>https://benjimanclarke.ie/tags/</loc>
+    <loc>localhost/tags/</loc>
   </url>
 </urlset>
